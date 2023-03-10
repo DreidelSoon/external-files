@@ -20,26 +20,12 @@ Do NOT modify this file if you dont know what youre doing.
 @import url("https://satanadesigns.github.io/soon-extr/main/extra/palette.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/BIRBanners.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
-@import url("https://satanadesigns.github.io/soon-extr/main/son.css");
 @import url("https://satanadesigns.github.io/soon/main/extra/palette.css");
-
-
-/**
- * Delete this @import if you want the regular discord icons (Docs coming soon (maybe))
-*/
-@import url("https://satanadesigns.github.io/external-files/iconChange.css");
-
-
-/** 
- * Replaces Emojis
- * Delete this @import if you want the regular discord emojis (Docs coming soon (maybe))
-*/
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 
 :root {
   /* Banners (modifiable!) */
-  --banner-blur: 1; /* 1 to enabled || 0 to disable */
-  --banner-blur-amount: 3;
+  --banner-blur: 0; /* 1 to enabled || 0 to disable */
+  --banner-blur-amount: 0;
   
   /* Fonts (modifiable!) */
   --font-primary: Inter;
@@ -48,15 +34,15 @@ Do NOT modify this file if you dont know what youre doing.
 
   /* Avatar Image Shape (modifiable!) (change all of the numbers to modify shape) */
     --rs-avatar-shape: 50%; /* 50% for round - 10% for default */
-    --avatar-radius: 50px; /* default: 10px */
-    --reply-avatar-radius:50px; /* default: 5px */
+    --avatar-radius: 25px; /* default: 10px */
+    --reply-avatar-radius:25px; /* default: 5px */
 
   /* Server Image Shape (modifiable!) (change all of the numbers to modify shape) */
     --server-radius:3px; /* default: 3px */
     --folder-radius:5px; /* default: 5px */
   
   /* Chat Bubbles (modifiable!) */
-      --chat-bubble: 1; /* 1 to enable chat bubbles, 0 to disable chat bubbles */
+      --chat-bubble: 0; /* 1 to enable chat bubbles, 0 to disable chat bubbles */
 
     --chat-bubble-background-color: #1f1d27a1; /* Background Color of chat bubbles | #1f1d27a1 */
     --chat-bubble-border-color: none; /* Chat bubble border | [color] to enable - none to disable */
