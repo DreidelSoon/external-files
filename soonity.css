@@ -903,3 +903,17 @@ body #app-mount .quickSelectPopout-2F0PXw>.quickSelectPopoutOption-2E2UmS:hover{
   background-color: #121016!important;
 
 }
+:root .mentionsBadge-3H1BKJ .numberBadge-37OJ3S {
+  background-color: var(--mention-color) !important;
+}
+:root .mentionsBadge-3H1BKJ .numberBadge-37OJ3S::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: inherit;
+  border-radius: 100%;
+  z-index: -1;
+  animation: var(--disable-animations), 2s pulse infinite;
+  will-change: transform;
+}
